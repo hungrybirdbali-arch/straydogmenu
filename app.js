@@ -110,22 +110,23 @@ function visibleItem(x){
   // Staff can type HIDE / SOLD OUT / OFF in UPDATE to remove it from customer view.
   return !["hide","sold out","soldout","off","false","no"].includes(u);
 }
-function renderIcons(notes){
+const KNOWN_ICONS = new Set([
+  "alcohol","beef","caffeine","chicken","dairy","egg","gluten",
+  "nuts","pork","seafood","sesame","shellfish","soy","spicy",
+  "vegan","vegetarian"
+]);
 
-    if(!notes) return "";
-
-    return notes
-        .split(",")
-        .map(icon => icon.trim().toLowerCase())
-        .map(icon => `
-            <img
-                class="food-icon"
-                src="icons/${icon}.svg"
-                alt="${icon}"
-                title="${icon}">
-        `)
-        .join("");
-
+function renderNotes(notes){
+  if(!notes) return "";
+  const tags = notes.split(",").map(t=>t.trim()).filter(Boolean);
+  if(!tags.length) return "";
+  return `<div class="note-tags">` + tags.map(t=>{
+    const key = t.toLowerCase();
+    const icon = KNOWN_ICONS.has(key)
+      ? `<img class="note-icon" src="icons/${key}.svg" alt="" width="14" height="14">`
+      : "";
+    return `<span class="note-tag">${icon}<span>${escapeHtml(t)}</span></span>`;
+  }).join("") + `</div>`;
 }
 function render(){
   const root = document.querySelector("#menu");
@@ -145,7 +146,7 @@ function render(){
         <div class="price">${escapeHtml(fmtPrice(x.price))}</div>
       </div>
       ${x.description?`<div class="desc">${escapeHtml(x.description).replace(/\n/g,"<br>")}</div>`:""}
-      ${x.notes?`<div class="note">${escapeHtml(x.notes)}</div>`:""}
+      ${x.notes?renderNotes(x.notes):""}
       ${update && !["hide","sold out","soldout","off","false","no"].includes(update.toLowerCase())?`<div class="badge">${escapeHtml(update)}</div>`:""}
     </article>`);
   });
