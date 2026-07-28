@@ -42,3 +42,20 @@ main{width:100%;max-width:920px;margin:auto}.hero{padding:44px 18px 27px;border-
  .primary.active{background:#111;color:#f2efe8}
  .sub-tabs{top:116px}
 }
+.food-icons{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:12px;
+}
+
+.food-icon{
+    width:22px;
+    height:22px;
+    opacity:.85;
+    transition:.2s;
+}
+
+.food-icon:hover{
+    opacity:1;
+}
