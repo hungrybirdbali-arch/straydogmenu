@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Stray Dog — Menu</title>
+<meta name="theme-color" content="#111111">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <div class="brand">STRAY DOG</div>
+    <div class="place">BERAWA · BALI</div>
+  </div>
+  <button id="refresh" aria-label="Refresh menu">↻</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">TODAY AT</div>
+    <h1>STRAY DOG</h1>
+    <p>Daily specials, current rotations, and the full menu.</p>
+  </section>
+
+  <nav id="primaryTabs" class="primary-tabs" aria-label="Main menu">
+  <button data-group="TODAY" class="primary active">TODAY</button>
+  <button data-group="FOOD" class="primary">FOOD</button>
+  <button data-group="COFFEE" class="primary">COFFEE</button>
+  <button data-group="DRINKS" class="primary">DRINKS</button>
+</nav>
+<nav id="tabs" class="tabs sub-tabs" aria-label="Menu sections"></nav>
+  <div id="status" class="status">Loading menu…</div>
+  <section id="menu"></section>
+</main>
+
+<footer>STRAY DOG · MENU CHANGES WITH THE DAY</footer>
+<script src="app.js"></script>
+</body>
+</html>

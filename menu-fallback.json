@@ -1,0 +1,990 @@
+{
+  "DAILY SPECIALS": [
+    {
+      "category": "Daily Specials",
+      "item": "Fish Sandwich",
+      "description": "fish of the day, cheddar cheese, tartar sauce, lettuce, brioche bun.",
+      "price": 120000,
+      "notes": "seafood",
+      "update": ""
+    },
+    {
+      "category": "Daily Specials",
+      "item": "Roasted Fish Risotto",
+      "description": "japanese rice, roasted fish of the day, saffron, parmesan.",
+      "price": 130000,
+      "notes": "seafood",
+      "update": ""
+    },
+    {
+      "category": "Daily Specials",
+      "item": "Meat Pie",
+      "description": "beef ragu, puff pastry, whipped maple butter, cheddar, pickled onion.",
+      "price": 92000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "ALL DAY": [
+    {
+      "category": "All day",
+      "item": "Stray Dog Breakfast",
+      "description": "scrambled eggs, house made sausage, xo salami, pickled onion, sourdough.",
+      "price": 90000,
+      "notes": "pork",
+      "update": "turun jadi 85000"
+    },
+    {
+      "category": "All day",
+      "item": "Dry Ramen",
+      "description": "housemade noodles, XO seaweed, crispy pork bacon, leeks, tahini, 62 degrees egg, ginger scallion oil.",
+      "price": 90000,
+      "notes": "pork, seafood, spicy",
+      "update": "turun jadi 85000"
+    },
+    {
+      "category": "All day",
+      "item": "Chicken Dry Ramen",
+      "description": "housemade noodles, XO seaweed, smoked chicken, leeks, tahini, 62 degrees egg, ginger scallion oil.",
+      "price": 90000,
+      "notes": "spicy",
+      "update": "turun jadi 85000"
+    },
+    {
+      "category": "All day",
+      "item": "Avocado on Toast",
+      "description": "mashed avocado, poached egg, picked rucola, whipped ricotta, pickled shallots, XO salami, tomato cherry.",
+      "price": 98000,
+      "notes": "pork, seafood",
+      "update": "harga jadi 90000"
+    },
+    {
+      "category": "All day",
+      "item": "Chicken Burger with Fries",
+      "description": "deep fried chicken, house sauce, pickled onion, slaw, brioche bun.",
+      "price": 95000,
+      "notes": "",
+      "update": "turun harga"
+    },
+    {
+      "category": "All day",
+      "item": "Smashed Beef Burger with Fries",
+      "description": "double smashed beef patties, pickled onion, lettuce, house sauce, brioche bun.",
+      "price": 135000,
+      "notes": "",
+      "update": "turun harga"
+    },
+    {
+      "category": "All day",
+      "item": "Smoked Chicken Poke Bowl",
+      "description": "smoked chicken, pico de gallo, cabbage, cucumber, edamame, avocado, pickled onion, coriander, sweet tare",
+      "price": 90000,
+      "notes": "",
+      "update": "turun harga 85000"
+    },
+    {
+      "category": "All day",
+      "item": "Overnight Oats ( upsized )",
+      "description": "rolled oats, milk, apple, seasonal fruits, passionfruit syrup, sesame pumpkin sunflower seeds brittle",
+      "price": 70000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "All day",
+      "item": "French Toast",
+      "description": "brioche, mascarpone cream, mixed berries jam, maple syrup.",
+      "price": 88000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "All day",
+      "item": "Sourdough & Jam",
+      "description": "two slices of sourdough, butter, house made mix berries jam.",
+      "price": 55000,
+      "notes": "",
+      "update": "turun harga jadi 50000"
+    },
+    {
+      "category": "All day",
+      "item": "Caesar Salad Wrap ( hold )",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "All day",
+      "item": "Breakfast Burito ( hold )",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "All day",
+      "item": "Gyutan-Don",
+      "description": "Smoked beef tongue, Rice, House made tare, Smoked sambal ijo, Bean sprouts, pickled daikon, onsen egg",
+      "price": 90000,
+      "notes": "spicy",
+      "update": "turun jadi 85000"
+    },
+    {
+      "category": "All day",
+      "item": "Tom yum dry noodle",
+      "description": "House made noodle, Namprik pao, Fish meatballs, ground pork sausage, bean sprouts, crispy garlic",
+      "price": 90000,
+      "notes": "spicy, seafood",
+      "update": "turun jadi 85000"
+    },
+    {
+      "category": "All day ( BARU )",
+      "item": "Peanut butter jelly sandwich",
+      "description": "2 slice of sourdough, housemade peanut butter, mix berries jam, chantilly cream",
+      "price": 70000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "PASTA & BIG PLATES": [
+    {
+      "category": "Pasta & Big Plates",
+      "item": "Agnolotti",
+      "description": "bianco pork raguu, smoked pumpkin, truffle oil, pecorino cheese.",
+      "price": 120000,
+      "notes": "pork",
+      "update": ""
+    },
+    {
+      "category": "Pasta & Big Plates",
+      "item": "Smoked Tongue Cappellini",
+      "description": "smoked beef tongue, fermented chilli, sofrito, black olive, capers.",
+      "price": 100000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "BARU",
+      "item": "Roasted chicken",
+      "description": "Roasted chicken leg, moutarde sauce, mash potato or hand cut fries",
+      "price": 110000,
+      "notes": "",
+      "update": "ga pake sayur kale lagi ya jadi deskripsi nya minta tolong di ganti"
+    },
+    {
+      "category": "BARU",
+      "item": "Pasta Con Calamari",
+      "description": "capellini pasta, fermented chilli, anchovies, seaweed powder, tempura calamari",
+      "price": 100000,
+      "notes": "seafood, spicy",
+      "update": ""
+    },
+    {
+      "category": "BARU",
+      "item": "Pork Neck",
+      "description": "Grilled pork neck, salsa verde, colo colo sambal, corinader, kemangi, pikcled daikon",
+      "price": 115000,
+      "notes": "pork,spicy",
+      "update": ""
+    },
+    {
+      "category": "BARU",
+      "item": "Margherita pizza",
+      "description": "36hrs fermented biga, tomato sauce, mozzarella, pecorino romano, basil, olive oil",
+      "price": 110000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "BARU",
+      "item": "Pork jowl bacon pizza",
+      "description": "36hrd fermented biga, bechamel sauce, mozzarella, pecorino romano, leeks",
+      "price": 120000,
+      "notes": "pork",
+      "update": ""
+    },
+    {
+      "category": "BARU",
+      "item": "smoked pork sausage pizza",
+      "description": "36hrs fermented biga, tomato sauce, mozzarella, smoked pork sausage, ranch, rucola, pecorino romano",
+      "price": 120000,
+      "notes": "pork",
+      "update": ""
+    }
+  ],
+  "CUSTOM BREAKFAST": [
+    {
+      "category": "",
+      "item": "Sourdough Toast",
+      "description": "",
+      "price": 60000,
+      "notes": "",
+      "update": "custom sudah ga dapet mix berries jam jadi deskripsoi  nya minta tolong di ilangin yaa yang inlcudes mix berries jam dan harga nya juga di ganti yaa"
+    },
+    {
+      "category": "",
+      "item": "Brioche",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "English Muffin",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Scrambled",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sunny Side Up",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Over Easy",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Over Hard",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Poached",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Omelette",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sauteed Spinach",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sauteed Kale",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sauteed Mix Mushroom",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Grilled Tomato",
+      "description": "",
+      "price": "",
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Smoked Pork Sausage ( 70gr )",
+      "description": "",
+      "price": 40000,
+      "notes": "pork",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Smoked Pork Bacon ( 70gr )",
+      "description": "",
+      "price": 40000,
+      "notes": "pork",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Smoked Chicken (100gr)",
+      "description": "",
+      "price": 38000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Eggs Your Way",
+      "description": "",
+      "price": 20000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sourdough Toast",
+      "description": "",
+      "price": 18000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Brioche",
+      "description": "",
+      "price": 18000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "English Muffin",
+      "description": "",
+      "price": 18000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sauteed Spinach",
+      "description": "",
+      "price": 15000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sauteed Kale",
+      "description": "",
+      "price": 15000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Sauteed Mix Mushroom",
+      "description": "",
+      "price": 15000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Grilled Tomato",
+      "description": "",
+      "price": 15000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Avocado ( smashed / sliced )",
+      "description": "",
+      "price": 20000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Butter",
+      "description": "",
+      "price": 12000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Mixed Berries Jam",
+      "description": "",
+      "price": 10000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Cheddar Cheese",
+      "description": "",
+      "price": 17000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Potato Salad",
+      "description": "",
+      "price": 25000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "",
+      "item": "Tomato Salad",
+      "description": "",
+      "price": 25000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "OTHERS": [
+    {
+      "category": "Others",
+      "item": "Lengua Taco",
+      "description": "smoked beef tongue, tortilla, salsa verde, coriander, lime.",
+      "price": 100000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Others",
+      "item": "Wings Bucket",
+      "description": "10pcs wings, house ranch",
+      "price": 85000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Others",
+      "item": "Handcut Fries",
+      "description": "triple cook fries, house ranch, tomato ketchup",
+      "price": 55000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Others",
+      "item": "Smoked Chicken Loaded Chips",
+      "description": "potato chips, smoked chicken, house sauce, pickles",
+      "price": 55000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Others",
+      "item": "Salad Bowl",
+      "description": "mix lettuce,charred corn,red paprika,chickpeas, avocado, cucumber, honey vinaigrette, toasted sesame dressings, boiled egg",
+      "price": 65000,
+      "notes": "gluten free, vegetarian",
+      "update": ""
+    }
+  ],
+  "PASTRIES": [
+    {
+      "category": "Viennoiserie Section",
+      "item": "BUTTER CROISSANT",
+      "description": "(With the best French Butter on the market!) Butter by Isigny St Mere.",
+      "price": 28000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Viennoiserie Section",
+      "item": "PAIN AU CHOCOLATE",
+      "description": "(The above, with good chocolate ;)) Butter by Isigny St Mere, Belgian Chocolate.",
+      "price": 32000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Viennoiserie Section",
+      "item": "HAZELNUT CROISSANT",
+      "description": "(Melt in your mouth... hazelnutty creamy goodness) Jamaican Rum & Orange Syrup, Demerara Sugar, Hazelnuts.",
+      "price": 55000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Viennoiserie Section",
+      "item": "PAIN SUISSE",
+      "description": "(Decadently dark chocolate , with a surprise of pecans ;)) Venezuelan Araguani Dark Chocolate, Toasted Pecans, Almond Cream.",
+      "price": 55000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "GOOD OL’ CHOCOLATE COOKIE",
+      "description": "(Chocolate chunks, walnuts bites, brown butter) Belgian Dark Chocolate, Walnuts, Beurre Noisette.",
+      "price": 35000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "MADELEINES À L'ORANGE",
+      "description": "(Drops of honey and orange zestiness) Sunkist Oranges, Celebes Forest Honey, Tahitian Vanilla.",
+      "price": 20000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "LES FINANCIERS",
+      "description": "(Rich almond cakes, beurre noisette) Almond Flour, Brown Butter, Bourbon Vanilla.",
+      "price": 20000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "NANNA’S OAT RAISIN COOKIE",
+      "description": "(Oats, raisins, almond, just how nanna made em’) Oat Flour, Almond Powder, Mariani Raisins.",
+      "price": 27000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "CARROT CAKE",
+      "description": "(You already know what a carrot cake is... this one’s better) Ginger Candy, Walnuts, Cinnamon, topped with a Lemony Cream Cheese Frosting.",
+      "price": 28000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "PASTEL DE NATA",
+      "description": "(Careful, this one’s a trap, you’re gonna come back for more) Silky Luscious Portuguese Egg Tart. Request for a sprinkle of Cinnamon Powder on top!",
+      "price": 25000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "CANNELÈ DE BORDEAUX",
+      "description": "(Perfectly petite - crisp, deeply caramelized custard) Pure Jamaican Dark Rum & quality bourbon vanilla beans.",
+      "price": 28000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Also from the Bakery",
+      "item": "BANANA BREAD",
+      "description": "(MOIST.. like, REALY MOIST) Ripened Pisang Raja (King Banana), Wallnuts, Brown Sugar",
+      "price": 28000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "BEVERAGES": [
+    {
+      "category": "TEA",
+      "item": "ENGLISH BREAKFAST",
+      "description": "",
+      "price": 40000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "TEA",
+      "item": "EARL GREY",
+      "description": "",
+      "price": 40000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "TEA",
+      "item": "CHAMOMILE",
+      "description": "",
+      "price": 40000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "TEA",
+      "item": "ICED ENGLISH BREAKFAST",
+      "description": "",
+      "price": 45000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "MATCHA",
+      "item": "OMOIYARI",
+      "description": "",
+      "price": 86000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "REFRESHMENT",
+      "item": "HONEY GINGER LEMONADE",
+      "description": "honey ginger syrup, lemonade, soda.",
+      "price": 47000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "REFRESHMENT",
+      "item": "WATERMELON ROSELLA",
+      "description": "watermelon cordial, watermelon reduction, soda.",
+      "price": 47000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "REFRESHMENT",
+      "item": "MELON CREAMSODA",
+      "description": "vanilla, honeydew shrub, housemade creamsoda.",
+      "price": 47000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "JUICE",
+      "item": "GREEN",
+      "description": "celery, cucumber, pineapple, apple, kale, ginger.",
+      "price": 65000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "JUICE",
+      "item": "ORANGE",
+      "description": "turmeric, Kintamani orange, carrot, pineapple.",
+      "price": 65000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "JUICE",
+      "item": "RED",
+      "description": "beetroot, watermelon, apple, ginger.",
+      "price": 65000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Housemade Soda",
+      "item": "TONIC WATER",
+      "description": "",
+      "price": 40000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Housemade Soda",
+      "item": "COLA",
+      "description": "",
+      "price": 40000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Housemade Soda",
+      "item": "STRAY MATE (YERBA MATE)",
+      "description": "",
+      "price": 47000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "BESPOKE COFFEE": [
+    {
+      "category": "EXOTIC COFFEE",
+      "item": "Alexis Daza Colombia",
+      "description": "Geisha - Fully Washed (120)\nProduced by Alexis Daza Specialty in the renowned coffee region of Bruselas, Huila, Colombia, this Geisha is grown at 1800 masl and processed using a 48-hour fermentation followed by a fully washed method. The result is a refined and expressive cup that highlights the elegance of the Geisha variety, combining floral aromatics with bright apricot acidity and a smooth honey-like sweetness.",
+      "price": 120000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "EXOTIC COFFEE",
+      "item": "Finca Anaya Acevedo Colombia",
+      "description": "Ombligon – Yeast Inoculation Washed (120)\nProduced by Sergio Darío Aranda Gomez at Finca Anaya in the mountains of Acevedo, Huila, this Navel variety is grown at 1600 masl and shaped through a meticulous washed process with yeast inoculation. Combining traditional Colombian coffee craftsmanship with controlled fermentation techniques, this lot showcases remarkable depth and complexity while preserving clarity in the cup. Amazing notes like red guava, strawberry, and passion fruit jam.",
+      "price": 120000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "t",
+      "item": "COLOMBIA MEDELLIN",
+      "description": "COLOMBIA MEDELLIN - Washed (59)\nFrom the mountains surrounding Medellín in Antioquia, this coffee is grown at high altitude where slow cherry maturation builds clarity and sweetness; supported by generations of smallholder farmers and the structure of Federación Nacional de Cafeteros de Colombia, and processed using a traditional washed method, it delivers a clean and elegant cup with notes of tangerine, caramel, and yellow stone fruit.",
+      "price": 59000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "t",
+      "item": "ETHIOPIA GUJI URAGA HEIRLOOM",
+      "description": "Natural (59)\nGrown in the highlands of Uraga, Guji, at 1,900–2,200 meters above sea level, this heirloom coffee benefits from rich volcanic soil and cool mountain temperatures that promote slow maturation, thus creating a denser beans for its complexity. The natural process highlights vibrant notes of Mandarin orange and peach, complemented by delicate florals and honey-like sweetness, finishing with a silky body and clean, elegant acidity.",
+      "price": 59000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "t",
+      "item": "ARGOPURO",
+      "description": "CM Natural (49)\nFrom Tlogosari Village, Situbondo, East Java (1600 masl), Walida Cooperative led by Ahmad Muhlisin is processed using carbonic maceration natural, where whole cherries undergo intracellular fermentation in a CO₂-rich environment, resulting in a juicy and expressive cup with lifted aromatics, vibrant structured acidity, and a silky, refined finish.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "t",
+      "item": "BALI MUNDUK MODING PLANTATION",
+      "description": "Natural (49)\nAlmost 10 years supplying natural processed coffee from western Bali Highland. MMP is known for its careful post-harvest approach - aimed at elevating clarity and fruit expression.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "t",
+      "item": "BALI ULIAN EXPERIMENTAL",
+      "description": "Experimental (49)\nA collaborative learning project with Arca Ulian Coffee in Kintamani, Bali, Indonesia. This lot explores modified fermentation techniques designed not to change the coffee’s character, but to refine and elevate its natural fruit potential. Each batch reflects ongoing experimentation and careful observation. Ask our baristas for details about the specific batch currently available.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "FILTERED COFFEE": [
+    {
+      "category": "EXOTIC COFFEE",
+      "item": "Auromar Firestone Panama",
+      "description": "Geisha – Anaerobic Washed (200)\nFrom the pristine highlands of Candela, Chiriquí, Panama, this Auromar Firestone Geisha is produced by renowned coffee grower Roberto Brenes at elevations reaching 1770 masl. Through a meticulous anaerobic washed process, the coffee undergoes controlled oxygen-free fermentation before a clean washed finish, creating remarkable clarity, elegance, and layered complexity. The result is a vibrant and refined expression of Panama Geisha, showcasing floral aromatics, crystalline sweetness, and a structure that reflects Auromar’s relentless pursuit of excellence.",
+      "price": 200000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "EXOTIC COFFEE",
+      "item": "Kotowa Marina Panama",
+      "description": "Geisha – Natural (200)\nGrown at 1800 masl in the lush highlands of Panama, this Kotowa Marina Geisha is produced by Ricardo Koyner at Kotowa Farm. Crafted through a classic natural process, the coffee reveals an elegant and expressive profile with delicate rose florals, juicy peach sweetness, and a refined silky structure. The meticulous processing enhances its vibrant fruit complexity while preserving the clarity and sophistication that make Panama Geisha truly exceptional.",
+      "price": 200000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "EXOTIC COFFEE",
+      "item": "Karamo G1 Anaerobic",
+      "description": "74158 - Anaerobic Natural (59)\nProduced by Nigusse Gemeda Mude, winner of Ethiopia's first Cup of Excellence in 2020, this coffee comes from Bura, East Sidama, at 2,200 masl. The lot is composed entirely of the renowned 74158 variety, grown in fertile volcanic soil and cool mountain conditions. Ripe cherries undergo an anaerobic natural process followed by slow drying on raised African beds. This careful approach enhances fruit intensity while maintaining fruit clarity and sweetness. The cup showcases notes of blueberry, clementine, and chamomile with a vibrant and elegant finish.",
+      "price": 59000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "EXOTIC COFFEE",
+      "item": "Baturo",
+      "description": "74158 - Natural (59)\nComposed entirely of the renowned 74158 variety, the lot reflects Karamo Coffee's commitment to showcasing the finest expression of Ethiopia's heirloom genetics and terroir.  This exceptional lot comes from Baturo Farm in the highlands of East Sidama. Grown at an impressive 2,400 masl, the coffee benefits from cool mountain temperatures, fertile soils, and extended cherry maturation that foster remarkable sweetness and complexity.",
+      "price": 59000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Current Rotations",
+      "item": "Kamojang",
+      "description": "Natural (49)\nFor this lot number 11 from Sixty Percent Coffee, carefully selected ripe cherries undergo a Natural Nitro Macerated process. By introducing nitrogen during fermentation, the coffee develops in a carefully controlled environment that encourages vibrant fruit expression while preserving clarity and sweetness. The result is a coffee that showcases both innovation and the remarkable potential of West Java’'s terroir with silky mouthfeel.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Current Rotations",
+      "item": "Sunda Klasik",
+      "description": "Natural (49)\nA masterpiece from klasik beans, grown at 1600 masl in Pasirwangi, West Java, is a natural-processed blend of Sigararutang, Ateng, Lini S, and Kartika. It delivers ripe apricot and mango, delicate florals, and a smooth brown sugar sweetness, with a balanced and elegant finish.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Current Rotations",
+      "item": "Munduk Moding Plantation",
+      "description": "Natural (49)\nFrom Asah Gobleg Village, Buleleng, Bali at 1200 masl, this Kopyol variety by Munduk Coffee is anaerobically processed, enhancing its bold fruit character and complexity, revealing notes of red berries, orange, hints of lychee, and a subtle herbaceous finish.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Current Rotations",
+      "item": "Ethiopia Mewa",
+      "description": "Natural (59)\nFrom Mewa Village, West Arsi, Sidama (2000 masl), this heirloom lot by smallholder farmers is naturally processed at Mewa Washing Station, revealing delicate white florals, juicy guava and peach, and a refined bergamot finish with vibrant clarity.",
+      "price": 59000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Current Rotations",
+      "item": "Argopuro",
+      "description": "CM Natural (49)\nFrom Tlogosari Village, Situbondo, East Java (1600 masl), Walida Cooperative led by Ahmad Muhlisin is processed using carbonic maceration natural, where whole cherries undergo intracellular fermentation in a CO₂-rich environment, resulting in a juicy and expressive cup with lifted aromatics, vibrant structured acidity, and a silky, refined finish.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "Current Rotations",
+      "item": "Kintamani",
+      "description": "Ulian Honey (49)\nFrom Ulian, Bali (1100–1400 masl), this lot by I Wayan Arca uses a honey process where carefully selected ripe cherries are pulped and dried with controlled mucilage—first under direct sun, then in a greenhouse—developing sweetness through slow drying over 17–24 days, resulting in mandarin orange, white grape, tropical fruit, honey, and black tea with a clean, balanced finish.",
+      "price": 49000,
+      "notes": "",
+      "update": ""
+    }
+  ],
+  "COCKTAILS": [
+    {
+      "category": "APERITIVO",
+      "item": "CAMPARI / APEROL SPRITZ",
+      "description": "campari / aperol, re-bubbles prosecco, housemade soda water.",
+      "price": 150000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "APERITIVO",
+      "item": "CYNAR TONIC",
+      "description": "cynar, housemade tonic, grapefruit bitter.",
+      "price": 150000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "APERITIVO",
+      "item": "LIMO TONIC",
+      "description": "limo, keffir lime cordial, housemade tonic.",
+      "price": 150000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "APERITIVO",
+      "item": "AMERICANO",
+      "description": "campari, red vermouth, soda.",
+      "price": 150000,
+      "notes": "",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "GIN N TONIC",
+      "description": "house pour gin, lemon, housemade tonic.",
+      "price": 160000,
+      "notes": "HIGHBALL GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "WHISKY HIGHBALL",
+      "description": "house pour whisky, umeshu, soda water.",
+      "price": 160000,
+      "notes": "HIGHBALL GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "CHUHAI HIGHBALL",
+      "description": "house pour sochu, umeshu, soda water, housemade tonic.",
+      "price": 150000,
+      "notes": "HIGHBALL GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "DARK ‘N’ STORMY",
+      "description": "house pour rum, lime, housemade honey ginger soda.",
+      "price": 160000,
+      "notes": "HIGHBALL GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "NEGRONI",
+      "description": "house pour gin, campari, red vermouth.",
+      "price": 180000,
+      "notes": "ROCK GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "BOULEVARDIER",
+      "description": "naked grouse, campari, red vermouth.",
+      "price": 180000,
+      "notes": "ROCK GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "OLD FASHIONED",
+      "description": "bourbon, simple syrup, angostura bitter.",
+      "price": 175000,
+      "notes": "ROCK GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "WHISKY SOUR",
+      "description": "bourbon, lemon, angostura bitter, simple syrup.",
+      "price": 180000,
+      "notes": "ROCK GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "DRY MARTINI",
+      "description": "house pour gin, dry vermouth.",
+      "price": 190000,
+      "notes": "STEM GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "ESPRESSO MARTINI",
+      "description": "house pour vodka, coffee liqeur, espresso, demerara.",
+      "price": 190000,
+      "notes": "STEM GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "MARGARITA",
+      "description": "1800 silver, orange liqeur, lime, salt.",
+      "price": 170000,
+      "notes": "STEM GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "MANHATTAN",
+      "description": "house pour bourbon, blended scotch whisky, angostura bitter, red vermouth.",
+      "price": 180000,
+      "notes": "STEM GLASS",
+      "update": ""
+    },
+    {
+      "category": "CLASSICS",
+      "item": "IRISH COFFEE",
+      "description": "irish wishkey, demerara, filter coffee, cream",
+      "price": 160000,
+      "notes": "STEM GLASS",
+      "update": ""
+    }
+  ]
+}
