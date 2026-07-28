@@ -70,7 +70,23 @@ function visibleItem(x){
   // Staff can type HIDE / SOLD OUT / OFF in UPDATE to remove it from customer view.
   return !["hide","sold out","soldout","off","false","no"].includes(u);
 }
+function renderIcons(notes){
 
+    if(!notes) return "";
+
+    return notes
+        .split(",")
+        .map(icon => icon.trim().toLowerCase())
+        .map(icon => `
+            <img
+                class="food-icon"
+                src="icons/${icon}.svg"
+                alt="${icon}"
+                title="${icon}">
+        `)
+        .join("");
+
+}
 function render(){
   const root = document.querySelector("#menu");
   const rows = (DATA[current]||[]).filter(visibleItem);
