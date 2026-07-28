@@ -23,16 +23,56 @@ const fmtPrice = n => {
   return "Rp " + new Intl.NumberFormat("id-ID").format(x);
 };
 
+const CACHE_KEY = "straydog_menu_cache_v1";
+const CACHE_TTL_MS = 60 * 1000; // treat cache as "fresh enough" for 60s
+
+function readCache(){
+  try{
+    const raw = sessionStorage.getItem(CACHE_KEY);
+    if(!raw) return null;
+    return JSON.parse(raw);
+  }catch(e){ return null; }
+}
+function writeCache(data){
+  try{
+    sessionStorage.setItem(CACHE_KEY, JSON.stringify({data, ts: Date.now()}));
+  }catch(e){ /* storage unavailable or full - ignore, caching is a bonus not a requirement */ }
+}
+
 async function loadMenu(){
   const status = document.querySelector("#status");
-  status.textContent = "Loading live menu…";
+  const cached = readCache();
+
+  // Instantly paint whatever we have cached (any age) so the page never
+  // sits on a blank "Loading…" screen while Apps Script wakes up.
+  if(cached){
+    DATA = cached.data;
+    if(!DATA[current]) current = Object.keys(DATA)[0];
+    buildTabs();
+    render();
+    const age = Date.now() - cached.ts;
+    if(age < CACHE_TTL_MS){
+      status.textContent = "Live from Stray Dog";
+      return; // fresh enough, skip the network round-trip entirely
+    }
+    status.textContent = "Updating menu…";
+  }else{
+    status.textContent = "Loading live menu…";
+  }
+
   try{
     if(!CONFIG.apiUrl) throw new Error("No API configured");
     const r = await fetch(CONFIG.apiUrl + "?v=" + Date.now(), {cache:"no-store"});
     if(!r.ok) throw new Error("API error");
     DATA = await r.json();
+    writeCache(DATA);
     status.textContent = "Live from Stray Dog";
   }catch(e){
+    if(cached){
+      // Already showing cached data above; just note the sync failure.
+      status.textContent = "Showing saved menu · live sync unavailable";
+      return;
+    }
     const r = await fetch("menu-fallback.json", {cache:"no-store"});
     DATA = await r.json();
     status.textContent = CONFIG.apiUrl ? "Showing saved menu · live sync unavailable" : "Preview mode · connect Google Sheet for live updates";
