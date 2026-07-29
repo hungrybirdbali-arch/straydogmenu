@@ -123,7 +123,7 @@ function renderNotes(notes){
   return `<div class="note-tags">` + tags.map(t=>{
     const key = t.toLowerCase();
     const icon = KNOWN_ICONS.has(key)
-      ? `<img class="note-icon" src="icons/${key}.svg" alt="" width="14" height="14">`
+      ? `<img class="note-icon" src="icons/${key}.svg" alt="" width="22" height="22">`
       : "";
     return `<span class="note-tag">${icon}<span>${escapeHtml(t)}</span></span>`;
   }).join("") + `</div>`;
