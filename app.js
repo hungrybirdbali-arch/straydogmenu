@@ -132,6 +132,9 @@ function render(){
   const root = document.querySelector("#menu");
   const rows = (DATA[current]||[]).filter(visibleItem);
   root.innerHTML = `<div class="section-title">${current==="DAILY SPECIALS"?"TODAY / HIGHLIGHT":current}</div>`;
+  if(current==="CUSTOM BREAKFAST"){
+    root.innerHTML += `<div class="section-intro">Choose 1 bread, 1 style of egg, and 1 veggie — included. Items with a price below are add-ons.</div>`;
+  }
   if(!rows.length){root.innerHTML += `<div class="empty">Nothing on this section right now.</div>`;return;}
   let lastCat = null;
   rows.forEach(x=>{
